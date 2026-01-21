@@ -40,7 +40,7 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-4">Contato</h4>
             <ul className="space-y-2 text-gray-400">
               <li>📞 (11) 99999-9999</li>
-              <li>📧 contato@powerfit.com</li>
+              <li>📧 contato@sensefitness.com</li>
               <li>�� São Paulo, SP</li>
               <li>🕐 Seg - Sáb: 6h às 22h</li>
             </ul>

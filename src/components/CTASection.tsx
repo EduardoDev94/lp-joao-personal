@@ -33,12 +33,12 @@ export default function CTASection() {
           </a>
 
           <a
-            href="mailto:contato@powerfit.com"
+            href="mailto:contato@sensefitness.com"
             className="bg-gradient-to-br from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-all duration-300 shadow-xl"
           >
             <Mail size={48} className="text-white mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-white mb-2">E-mail</h3>
-            <p className="text-purple-100">contato@powerfit.com</p>
+            <p className="text-purple-100">contato@sensefitness.com</p>
           </a>
 
           <a

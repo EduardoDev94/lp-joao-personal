@@ -1,4 +1,4 @@
-import { Dumbbell } from 'lucide-react';
+import { Zap } from 'lucide-react';
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="animate-fade-in">
           <div className="flex justify-center mb-6">
             <div className="bg-yellow-400 p-4 rounded-full">
-              <Dumbbell size={48} className="text-black" />
+              <Zap size={48} className="text-black" />
             </div>
           </div>
 
