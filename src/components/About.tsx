@@ -41,7 +41,7 @@ export default function About() {
             <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 via-purple-600 to-yellow-400 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-lg"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="../../dist/assets/images/imagemjoao.jpeg"
+                src="/images/imagemjoao.jpeg"
                 alt="Personal Trainer SenseFitness"
                 className="w-full h-full object-cover animate-image-zoom"
               />

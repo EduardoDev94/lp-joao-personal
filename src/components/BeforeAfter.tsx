@@ -6,19 +6,19 @@ export default function BeforeAfter() {
 
     const transformations = [
         {
-            image: '../../dist/assets/images/antes_depois1.png',
+            image: '/images/antes_depois1.png',
             alt: 'Transformação 1 - Antes e Depois'
         },
         {
-            image: '../../dist/assets/images/antes_depois2.png',
+            image: '/images/antes_depois2.png',
             alt: 'Transformação 2 - Antes e Depois'
         },
         {
-            image: '../../dist/assets/images/antes_depois3.png',
+            image: '/images/antes_depois3.png',
             alt: 'Transformação 3 - Antes e Depois'
         },
         {
-            image: '../../dist/assets/images/antes_depois4.jpeg',
+            image: '/images/antes_depois4.jpeg',
             alt: 'Transformação 4 - Antes e Depois'
         }
     ];
