@@ -4,7 +4,7 @@ export default function CTASection() {
   return (
     <section id="contato" className="py-24 bg-gradient-to-br from-black via-purple-950 to-black relative overflow-hidden">
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-yellow-400 rounded-full filter blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-96 h-96 bg-green-400 rounded-full filter blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-600 rounded-full filter blur-3xl"></div>
       </div>
 
@@ -12,7 +12,7 @@ export default function CTASection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Pronto para começar sua
-            <span className="text-yellow-400"> transformação</span>?
+            <span className="text-green-400"> transformação</span>?
           </h2>
           <p className="text-gray-300 text-xl md:text-2xl max-w-3xl mx-auto mb-12">
             Dê o primeiro passo hoje e comece a trilhar o caminho para a melhor versão de você mesmo.
@@ -43,7 +43,7 @@ export default function CTASection() {
 
           <a
             href="tel:+5511999999999"
-            className="bg-gradient-to-br from-yellow-500 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 rounded-2xl p-8 text-center transform hover:scale-105 transition-all duration-300 shadow-xl"
+            className="bg-gradient-to-br from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 rounded-2xl p-8 text-center transform hover:scale-105 transition-all duration-300 shadow-xl"
           >
             <Phone size={48} className="text-black mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-black mb-2">Telefone</h3>

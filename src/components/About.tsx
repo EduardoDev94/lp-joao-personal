@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h3 className="text-yellow-400 font-semibold text-lg mb-4">SOBRE MIM</h3>
+            <h3 className="text-green-400 font-semibold text-lg mb-4">SOBRE MIM</h3>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Seu personal trainer dedicado à sua
               <span className="text-purple-400"> transformação</span>
@@ -28,7 +28,7 @@ export default function About() {
                 { icon: Heart, text: 'Metodologia focada em resultados sustentáveis' },
               ].map((item, index) => (
                 <div key={index} className="flex items-start space-x-4">
-                  <div className="bg-yellow-400 p-2 rounded-lg flex-shrink-0">
+                  <div className="bg-green-400 p-2 rounded-lg flex-shrink-0">
                     <item.icon size={24} className="text-black" />
                   </div>
                   <p className="text-gray-300 text-lg">{item.text}</p>
@@ -38,7 +38,7 @@ export default function About() {
           </div>
 
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 via-purple-600 to-yellow-400 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-lg"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-green-400 via-purple-600 to-green-400 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-lg"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="/images/imagemjoao.jpeg"

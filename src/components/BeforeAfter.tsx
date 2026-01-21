@@ -44,17 +44,17 @@ export default function BeforeAfter() {
             {/* Background gradient effects */}
             <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black to-gray-900 opacity-50"></div>
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
-            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-yellow-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-green-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 {/* Header */}
                 <div className="text-center mb-16">
-                    <h3 className="text-yellow-400 font-semibold text-lg mb-4 tracking-wider">
+                    <h3 className="text-green-400 font-semibold text-lg mb-4 tracking-wider">
                         RESULTADOS REAIS
                     </h3>
                     <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
                         Transformações{' '}
-                        <span className="bg-gradient-to-r from-yellow-400 via-purple-400 to-yellow-400 bg-clip-text text-transparent">
+                        <span className="bg-gradient-to-r from-green-400 via-purple-400 to-green-400 bg-clip-text text-transparent">
                             Incríveis
                         </span>
                     </h2>
@@ -69,7 +69,7 @@ export default function BeforeAfter() {
                     {/* Main Image Container */}
                     <div className="relative group">
                         {/* Gradient border effect */}
-                        <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 via-purple-600 to-yellow-400 rounded-3xl opacity-75 group-hover:opacity-100 transition-opacity duration-500 blur-lg"></div>
+                        <div className="absolute -inset-1 bg-gradient-to-r from-green-400 via-purple-600 to-green-400 rounded-3xl opacity-75 group-hover:opacity-100 transition-opacity duration-500 blur-lg"></div>
 
                         {/* Image */}
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
@@ -83,7 +83,7 @@ export default function BeforeAfter() {
                         {/* Navigation Buttons */}
                         <button
                             onClick={prevSlide}
-                            className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-yellow-400 text-white hover:text-black p-3 rounded-full transition-all duration-300 backdrop-blur-sm group/btn"
+                            className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-green-400 text-white hover:text-black p-3 rounded-full transition-all duration-300 backdrop-blur-sm group/btn"
                             aria-label="Imagem anterior"
                         >
                             <ChevronLeft size={32} className="group-hover/btn:scale-110 transition-transform" />
@@ -91,7 +91,7 @@ export default function BeforeAfter() {
 
                         <button
                             onClick={nextSlide}
-                            className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-yellow-400 text-white hover:text-black p-3 rounded-full transition-all duration-300 backdrop-blur-sm group/btn"
+                            className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-green-400 text-white hover:text-black p-3 rounded-full transition-all duration-300 backdrop-blur-sm group/btn"
                             aria-label="Próxima imagem"
                         >
                             <ChevronRight size={32} className="group-hover/btn:scale-110 transition-transform" />
@@ -105,7 +105,7 @@ export default function BeforeAfter() {
                                 key={index}
                                 onClick={() => goToSlide(index)}
                                 className={`transition-all duration-300 rounded-full ${index === currentIndex
-                                    ? 'w-12 h-3 bg-gradient-to-r from-yellow-400 to-purple-400'
+                                    ? 'w-12 h-3 bg-gradient-to-r from-green-400 to-purple-400'
                                     : 'w-3 h-3 bg-gray-600 hover:bg-gray-400'
                                     }`}
                                 aria-label={`Ir para transformação ${index + 1}`}
@@ -116,7 +116,7 @@ export default function BeforeAfter() {
                     {/* Counter */}
                     <div className="text-center mt-6">
                         <p className="text-gray-400 text-sm">
-                            <span className="text-yellow-400 font-bold text-lg">{currentIndex + 1}</span>
+                            <span className="text-green-400 font-bold text-lg">{currentIndex + 1}</span>
                             {' '}/{' '}
                             <span className="text-white font-bold">{transformations.length}</span>
                         </p>
@@ -130,7 +130,7 @@ export default function BeforeAfter() {
                     </p>
                     <a
                         href="#contato"
-                        className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-yellow-400 to-yellow-500 text-black font-bold rounded-full hover:from-yellow-500 hover:to-yellow-600 transition-all duration-300 shadow-lg hover:shadow-yellow-400/50 hover:scale-105"
+                        className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-400 to-green-500 text-black font-bold rounded-full hover:from-green-500 hover:to-green-600 transition-all duration-300 shadow-lg hover:shadow-green-400/50 hover:scale-105"
                     >
                         Comece Sua Transformação
                     </a>

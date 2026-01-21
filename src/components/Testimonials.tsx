@@ -67,10 +67,10 @@ export default function Testimonials() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <h3 className="text-yellow-400 font-semibold text-lg mb-4 tracking-wider">AVALIAÇÕES</h3>
+          <h3 className="text-green-400 font-semibold text-lg mb-4 tracking-wider">AVALIAÇÕES</h3>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             O que meus alunos{' '}
-            <span className="bg-gradient-to-r from-yellow-400 via-purple-400 to-yellow-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-green-400 via-purple-400 to-green-400 bg-clip-text text-transparent">
               dizem
             </span>
           </h2>
@@ -86,11 +86,11 @@ export default function Testimonials() {
               className="group relative"
             >
               {/* WhatsApp-style card */}
-              <div className="bg-gradient-to-br from-gray-800/90 to-gray-900/90 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-yellow-400/50 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-yellow-400/10">
+              <div className="bg-gradient-to-br from-gray-800/90 to-gray-900/90 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-green-400/50 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-green-400/10">
                 {/* Header with name and time */}
                 <div className="flex items-center justify-between mb-4 pb-3 border-b border-gray-700/50">
                   <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-yellow-400 to-purple-500 flex items-center justify-center text-white font-bold text-sm">
+                    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-purple-500 flex items-center justify-center text-white font-bold text-sm">
                       {testimonial.name.charAt(0)}
                     </div>
                     <div>

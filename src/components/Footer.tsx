@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4 tracking-wider">
-              <span className="text-yellow-400">SENSE</span>
+              <span className="text-green-400">SENSE</span>
               <span className="text-white">FITNESS</span>
             </h3>
             <p className="text-gray-400">
@@ -27,7 +27,7 @@ export default function Footer() {
                       const element = document.getElementById(item.toLowerCase());
                       if (element) element.scrollIntoView({ behavior: 'smooth' });
                     }}
-                    className="text-gray-400 hover:text-yellow-400 transition-colors"
+                    className="text-gray-400 hover:text-green-400 transition-colors"
                   >
                     {item}
                   </button>
@@ -87,7 +87,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © {currentYear} <span className="text-yellow-400">SenseFitness</span>. Todos os direitos
+            © {currentYear} <span className="text-green-400">SenseFitness</span>. Todos os direitos
             reservados. | CREF 123456-G/SP
           </p>
         </div>

@@ -14,21 +14,21 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-purple-950 to-black overflow-hidden"
     >
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-yellow-400 rounded-full filter blur-3xl animate-pulse"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-green-400 rounded-full filter blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-600 rounded-full filter blur-3xl animate-pulse delay-1000"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
         <div className="animate-fade-in">
           <div className="flex justify-center mb-6">
-            <div className="bg-yellow-400 p-4 rounded-full">
+            <div className="bg-green-400 p-4 rounded-full">
               <Zap size={48} className="text-black" />
             </div>
           </div>
 
           <h2 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
             Transforme seu
-            <span className="text-yellow-400"> corpo</span>,
+            <span className="text-green-400"> corpo</span>,
             <br />
             transforme sua
             <span className="text-purple-400"> vida</span>
@@ -42,7 +42,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button
               onClick={scrollToContact}
-              className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 rounded-lg text-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
+              className="bg-green-400 hover:bg-green-500 text-black font-bold px-8 py-4 rounded-lg text-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
               Comece agora
             </button>
@@ -67,7 +67,7 @@ export default function Hero() {
               key={index}
               className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6 hover:bg-white/10 transition-all duration-300"
             >
-              <div className="text-4xl font-bold text-yellow-400 mb-2">{stat.number}</div>
+              <div className="text-4xl font-bold text-green-400 mb-2">{stat.number}</div>
               <div className="text-gray-300">{stat.label}</div>
             </div>
           ))}
