@@ -22,7 +22,7 @@ export default function CTASection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5531988991690"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-br from-green-600 to-green-700 hover:from-green-500 hover:to-green-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-all duration-300 shadow-xl"
@@ -33,27 +33,27 @@ export default function CTASection() {
           </a>
 
           <a
-            href="mailto:contato@sensefitness.com"
+            href="mailto:jvsena@gmail.com"
             className="bg-gradient-to-br from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 rounded-2xl p-8 text-center transform hover:scale-105 transition-all duration-300 shadow-xl"
           >
             <Mail size={48} className="text-white mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-white mb-2">E-mail</h3>
-            <p className="text-purple-100">contato@sensefitness.com</p>
+            <p className="text-purple-100">jvsena@gmail.com</p>
           </a>
 
           <a
-            href="tel:+5511999999999"
+            href="tel:+5531988991690"
             className="bg-gradient-to-br from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 rounded-2xl p-8 text-center transform hover:scale-105 transition-all duration-300 shadow-xl"
           >
             <Phone size={48} className="text-black mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-black mb-2">Telefone</h3>
-            <p className="text-gray-900">(11) 99999-9999</p>
+            <p className="text-gray-900">(31) 98899-1690</p>
           </a>
         </div>
 
         <div className="mt-16 text-center">
           <p className="text-gray-400 text-lg">
-            📍 Atendimento em São Paulo e online para todo Brasil
+            📍 Atendimento em Belo Horizonte e online para todo Brasil
           </p>
         </div>
       </div>

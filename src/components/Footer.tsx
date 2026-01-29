@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Youtube, Linkedin } from 'lucide-react';
+import { Instagram, Facebook, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -39,9 +39,9 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-4">Contato</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>📞 (11) 99999-9999</li>
-              <li>📧 contato@sensefitness.com</li>
-              <li>�� São Paulo, SP</li>
+              <li>📞 +55 31 98899-1690</li>
+              <li>📧 jvsena@gmail.com</li>
+              <li>�� Belo Horizonte, MG</li>
               <li>🕐 Seg - Sáb: 6h às 22h</li>
             </ul>
           </div>
@@ -50,7 +50,7 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-4">Redes Sociais</h4>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/sensefitness.oficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-br from-purple-600 to-pink-600 p-3 rounded-lg hover:scale-110 transition-transform"
@@ -65,14 +65,7 @@ export default function Footer() {
               >
                 <Facebook size={24} className="text-white" />
               </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-red-600 p-3 rounded-lg hover:scale-110 transition-transform"
-              >
-                <Youtube size={24} className="text-white" />
-              </a>
+
               <a
                 href="https://linkedin.com"
                 target="_blank"

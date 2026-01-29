@@ -20,6 +20,14 @@ export default function BeforeAfter() {
         {
             image: '/images/antes_depois4.jpeg',
             alt: 'Transformação 4 - Antes e Depois'
+        },
+        {
+            image: '/images/antes_depois5.png',
+            alt: 'Transformação 5 - Antes e Depois'
+        },
+        {
+            image: '/images/antes_depois6.png',
+            alt: 'Transformação 6 - Antes e Depois'
         }
     ];
 
